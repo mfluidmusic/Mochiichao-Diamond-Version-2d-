@@ -1,0 +1,477 @@
+[
+ {
+  "id": "001",
+  "name": "Mochii",
+  "elements": [
+   "Aqua"
+  ],
+  "slug": "mochii"
+ },
+ {
+  "id": "002",
+  "name": "Tiidebiite",
+  "elements": [
+   "Aqua",
+   "Mythic"
+  ],
+  "slug": "tiidebiite"
+ },
+ {
+  "id": "003",
+  "name": "Aquari-OS",
+  "elements": [
+   "Aqua",
+   "Mythic"
+  ],
+  "slug": "aquari-os"
+ },
+ {
+  "id": "004",
+  "name": "Razorgater",
+  "elements": [
+   "Chrome"
+  ],
+  "slug": "razorgater"
+ },
+ {
+  "id": "005",
+  "name": "Chromedile",
+  "elements": [
+   "Chrome",
+   "Strike"
+  ],
+  "slug": "chromedile"
+ },
+ {
+  "id": "006",
+  "name": "Reaperdile",
+  "elements": [
+   "Chrome",
+   "Strike"
+  ],
+  "slug": "reaperdile"
+ },
+ {
+  "id": "007",
+  "name": "Tyrage",
+  "elements": [
+   "Core"
+  ],
+  "slug": "tyrage"
+ },
+ {
+  "id": "008",
+  "name": "Duneclaw",
+  "elements": [
+   "Core",
+   "Umbral"
+  ],
+  "slug": "duneclaw"
+ },
+ {
+  "id": "009",
+  "name": "Oblivirex",
+  "elements": [
+   "Core",
+   "Umbral"
+  ],
+  "slug": "oblivirex"
+ },
+ {
+  "id": "010",
+  "name": "Kittember",
+  "elements": [
+   "Beast",
+   "Flame"
+  ],
+  "slug": "kittember"
+ },
+ {
+  "id": "011",
+  "name": "Pyropaw",
+  "elements": [
+   "Beast",
+   "Flame"
+  ],
+  "slug": "pyropaw"
+ },
+ {
+  "id": "012",
+  "name": "Manticlaw",
+  "elements": [
+   "Beast",
+   "Flame"
+  ],
+  "slug": "manticlaw"
+ },
+ {
+  "id": "013",
+  "name": "Pupbble",
+  "elements": [
+   "Beast",
+   "Earth"
+  ],
+  "slug": "pupbble"
+ },
+ {
+  "id": "014",
+  "name": "Terradog",
+  "elements": [
+   "Beast",
+   "Earth"
+  ],
+  "slug": "terradog"
+ },
+ {
+  "id": "015",
+  "name": "Quakehound",
+  "elements": [
+   "Beast",
+   "Earth"
+  ],
+  "slug": "quakehound"
+ },
+ {
+  "id": "016",
+  "name": "Squirmite",
+  "elements": [
+   "Bug",
+   "Silk"
+  ],
+  "slug": "squirmite"
+ },
+ {
+  "id": "017",
+  "name": "Cocoonode",
+  "elements": [
+   "Bug",
+   "Silk"
+  ],
+  "slug": "cocoonode"
+ },
+ {
+  "id": "018",
+  "name": "Mothrix",
+  "elements": [
+   "Bug",
+   "Silk"
+  ],
+  "slug": "mothrix"
+ },
+ {
+  "id": "019",
+  "name": "Zephling",
+  "elements": [
+   "Aero",
+   "Wind"
+  ],
+  "slug": "zephling"
+ },
+ {
+  "id": "020",
+  "name": "Aerobeak",
+  "elements": [
+   "Aero",
+   "Wind"
+  ],
+  "slug": "aerobeak"
+ },
+ {
+  "id": "021",
+  "name": "Stormtalon",
+  "elements": [
+   "Aero",
+   "Wind"
+  ],
+  "slug": "stormtalon"
+ },
+ {
+  "id": "022",
+  "name": "Finblade",
+  "elements": [
+   "Aqua",
+   "Chrome"
+  ],
+  "slug": "finblade"
+ },
+ {
+  "id": "023",
+  "name": "Megalochrome",
+  "elements": [
+   "Aqua",
+   "Chrome"
+  ],
+  "slug": "megalochrome"
+ },
+ {
+  "id": "024",
+  "name": "Floatcalf",
+  "elements": [
+   "Aqua",
+   "Neon"
+  ],
+  "slug": "floatcalf"
+ },
+ {
+  "id": "025",
+  "name": "Astroleviathan",
+  "elements": [
+   "Aqua",
+   "Neon"
+  ],
+  "slug": "astroleviathan"
+ },
+ {
+  "id": "026",
+  "name": "Inklet",
+  "elements": [
+   "Aqua",
+   "Umbral"
+  ],
+  "slug": "inklet"
+ },
+ {
+  "id": "027",
+  "name": "Toxitacle",
+  "elements": [
+   "Aqua",
+   "Umbral"
+  ],
+  "slug": "toxitacle"
+ },
+ {
+  "id": "028",
+  "name": "Krakenox",
+  "elements": [
+   "Aqua",
+   "Umbral"
+  ],
+  "slug": "krakenox"
+ },
+ {
+  "id": "029",
+  "name": "Punchkid",
+  "elements": [
+   "Core",
+   "Strike"
+  ],
+  "slug": "punchkid"
+ },
+ {
+  "id": "030",
+  "name": "Strikechamp",
+  "elements": [
+   "Core",
+   "Strike"
+  ],
+  "slug": "strikechamp"
+ },
+ {
+  "id": "031",
+  "name": "Kickmaster",
+  "elements": [
+   "Core",
+   "Strike"
+  ],
+  "slug": "kickmaster"
+ },
+ {
+  "id": "032",
+  "name": "Gearkid",
+  "elements": [
+   "Chrome",
+   "Core"
+  ],
+  "slug": "gearkid"
+ },
+ {
+  "id": "033",
+  "name": "Mechapion",
+  "elements": [
+   "Chrome",
+   "Core"
+  ],
+  "slug": "mechapion"
+ },
+ {
+  "id": "034",
+  "name": "Gorokappa",
+  "elements": [
+   "Chrome",
+   "Core"
+  ],
+  "slug": "gorokappa"
+ },
+ {
+  "id": "035",
+  "name": "Pebblefist",
+  "elements": [
+   "Core",
+   "Chrome"
+  ],
+  "slug": "pebblefist"
+ },
+ {
+  "id": "036",
+  "name": "Cragarm",
+  "elements": [
+   "Core",
+   "Chrome"
+  ],
+  "slug": "cragarm"
+ },
+ {
+  "id": "037",
+  "name": "Terrapod",
+  "elements": [
+   "Core",
+   "Chrome"
+  ],
+  "slug": "terrapod"
+ },
+ {
+  "id": "038",
+  "name": "Sproutle",
+  "elements": [
+   "Flora",
+   "Chrome"
+  ],
+  "slug": "sproutle"
+ },
+ {
+  "id": "039",
+  "name": "Shellguard",
+  "elements": [
+   "Flora",
+   "Chrome"
+  ],
+  "slug": "shellguard"
+ },
+ {
+  "id": "040",
+  "name": "Dreadtoise",
+  "elements": [
+   "Flora",
+   "Chrome"
+  ],
+  "slug": "dreadtoise"
+ },
+ {
+  "id": "041",
+  "name": "Pixilite",
+  "elements": [
+   "Flora"
+  ],
+  "slug": "pixilite"
+ },
+ {
+  "id": "042",
+  "name": "Wispkin",
+  "elements": [
+   "Umbral"
+  ],
+  "slug": "wispkin"
+ },
+ {
+  "id": "043",
+  "name": "Duskfiend",
+  "elements": [
+   "Umbral"
+  ],
+  "slug": "duskfiend"
+ },
+ {
+  "id": "044",
+  "name": "Ashemit",
+  "elements": [
+   "Flame",
+   "Mythic"
+  ],
+  "slug": "ashemit"
+ },
+ {
+  "id": "045",
+  "name": "Pyromonk",
+  "elements": [
+   "Flame",
+   "Mythic"
+  ],
+  "slug": "pyromonk"
+ },
+ {
+  "id": "046",
+  "name": "Yogiferno",
+  "elements": [
+   "Flame",
+   "Mythic"
+  ],
+  "slug": "yogiferno"
+ },
+ {
+  "id": "331",
+  "name": "Mythar",
+  "elements": [
+   "Mythic"
+  ],
+  "slug": "mythar"
+ },
+ {
+  "id": "BS-02",
+  "name": "Emburrn",
+  "elements": [
+   "Flame"
+  ],
+  "slug": "emburrn"
+ },
+ {
+  "id": "BS-03",
+  "name": "Aquabble",
+  "elements": [
+   "Aqua"
+  ],
+  "slug": "aquabble"
+ },
+ {
+  "id": "DIW-01",
+  "name": "Mochling",
+  "elements": [
+   "Neon"
+  ],
+  "slug": "mochling"
+ },
+ {
+  "id": "DIW-02",
+  "name": "Glitch-Mochi",
+  "elements": [
+   "Neon",
+   "Umbral"
+  ],
+  "slug": "glitch-mochi"
+ },
+ {
+  "id": "DIW-03",
+  "name": "Neon Stalker",
+  "elements": [
+   "Neon",
+   "Umbral"
+  ],
+  "slug": "neon-stalker"
+ },
+ {
+  "id": "DIW-04",
+  "name": "Ragdoll Brute",
+  "elements": [
+   "Core"
+  ],
+  "slug": "ragdoll-brute"
+ },
+ {
+  "id": "DIW-05",
+  "name": "Dream Cruncher",
+  "elements": [
+   "Mythic",
+   "Neon"
+  ],
+  "slug": "dream-cruncher"
+ }
+]

@@ -3,6 +3,7 @@ import { useGameStore } from '../../store/gameStore';
 import { MochiiInstance } from '../../lib/types';
 import { createMochii, gainExp } from '../../lib/engine';
 import { SPECIES_DB } from '../../lib/species';
+import MochiiSprite from '../MochiiSprite';
 import { MOVES_DB } from '../../lib/moves';
 import { calcTypeMultiplier, TYPES } from '../../lib/constants';
 
@@ -236,21 +237,18 @@ export default function BattleView({ enemyId, onLeave }: { enemyId: string | nul
         </div>
 
         <div className="absolute top-20 right-24 w-40 h-40 flex items-end justify-center transform scale-150 drop-shadow-[0_0_20px_rgba(255,0,0,0.5)]">
-          {SPECIES_DB[enemy.speciesId]?.pokeApiId ? (
-            <img 
-              src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${SPECIES_DB[enemy.speciesId].pokeApiId}.gif`}
-              onError={(e) => {
-                e.currentTarget.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${SPECIES_DB[enemy.speciesId].pokeApiId}.png`;
-              }}
-              alt={enemy.nickname} 
-              className="max-w-full max-h-full pixelated rendering-pixelated"
-              style={{ imageRendering: 'pixelated' }}
-            />
-          ) : (
-            <div className="w-32 h-32 bg-slate-800 border-2 border-red-500 rounded-full flex items-center justify-center text-4xl shadow-[0_0_30px_rgba(255,0,0,0.3)]">
-              {SPECIES_DB[enemy.speciesId]?.types[0] === 'WATER' ? '💧' : SPECIES_DB[enemy.speciesId]?.types[0] === 'FIRE' ? '🔥' : '🌱'}
-            </div>
-          )}
+          <MochiiSprite
+            id={enemy.speciesId}
+            name={SPECIES_DB[enemy.speciesId]?.name}
+            slug={SPECIES_DB[enemy.speciesId]?.sprite}
+            view="front"
+            alt={enemy.nickname}
+            fallback={
+              <div className="w-32 h-32 bg-slate-800 border-2 border-red-500 rounded-full flex items-center justify-center text-4xl shadow-[0_0_30px_rgba(255,0,0,0.3)]">
+                {SPECIES_DB[enemy.speciesId]?.types[0] === 'WATER' ? '💧' : SPECIES_DB[enemy.speciesId]?.types[0] === 'FIRE' ? '🔥' : '🌱'}
+              </div>
+            }
+          />
         </div>
 
         {/* Player Sprite & HUD */}
@@ -268,21 +266,18 @@ export default function BattleView({ enemyId, onLeave }: { enemyId: string | nul
         </div>
 
         <div className="absolute bottom-8 left-20 w-48 h-48 flex items-end justify-center transform scale-[2] drop-shadow-[0_0_20px_rgba(0,255,204,0.5)]">
-          {SPECIES_DB[playerActive.speciesId]?.pokeApiId ? (
-            <img 
-              src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/${SPECIES_DB[playerActive.speciesId].pokeApiId}.gif`}
-              onError={(e) => {
-                e.currentTarget.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${SPECIES_DB[playerActive.speciesId].pokeApiId}.png`;
-              }}
-              alt={playerActive.nickname} 
-              className="max-w-full max-h-full pixelated rendering-pixelated"
-              style={{ imageRendering: 'pixelated' }}
-            />
-          ) : (
-            <div className="w-40 h-40 bg-slate-800 border-2 border-teal-500 rounded-full flex items-center justify-center text-6xl shadow-[0_0_30px_rgba(0,255,204,0.3)]">
-              {SPECIES_DB[playerActive.speciesId]?.types[0] === 'WATER' ? '💧' : SPECIES_DB[playerActive.speciesId]?.types[0] === 'FIRE' ? '🔥' : '🌱'}
-            </div>
-          )}
+          <MochiiSprite
+            id={playerActive.speciesId}
+            name={SPECIES_DB[playerActive.speciesId]?.name}
+            slug={SPECIES_DB[playerActive.speciesId]?.sprite}
+            view="back"
+            alt={playerActive.nickname}
+            fallback={
+              <div className="w-40 h-40 bg-slate-800 border-2 border-teal-500 rounded-full flex items-center justify-center text-6xl shadow-[0_0_30px_rgba(0,255,204,0.3)]">
+                {SPECIES_DB[playerActive.speciesId]?.types[0] === 'WATER' ? '💧' : SPECIES_DB[playerActive.speciesId]?.types[0] === 'FIRE' ? '🔥' : '🌱'}
+              </div>
+            }
+          />
         </div>
       </div>
 

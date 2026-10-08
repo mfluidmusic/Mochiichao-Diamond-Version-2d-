@@ -15,7 +15,7 @@ export const SPECIES_DB: Record<string, SpeciesData> = {
     description: "A small, water-based creature that bounces to move.",
     learnset: [...BASIC_MOVES, { level: 8, moveId: "AQUA_SHOT" }, { level: 15, moveId: "AQUA_JET" }],
     evolution: { targetId: "002", level: 16 },
-    pokeApiId: 258 // mudkip
+    sprite: "mochii" // original local sprite (public/sprites/mochiichao)
   },
   "002": {
     id: "002",
@@ -26,7 +26,7 @@ export const SPECIES_DB: Record<string, SpeciesData> = {
     description: "It has learned to control the flow of water as a martial art.",
     learnset: [...BASIC_MOVES, { level: 8, moveId: "AQUA_SHOT" }, { level: 16, moveId: "POWER_STRIKE" }],
     evolution: { targetId: "003", level: 36 },
-    pokeApiId: 61 // poliwhirl
+    sprite: "tiidebiite" // original local sprite (public/sprites/mochiichao)
   },
   "003": {
     id: "003",
@@ -36,7 +36,7 @@ export const SPECIES_DB: Record<string, SpeciesData> = {
     catchRate: 45, baseExpYield: 239, growthRate: "Medium Slow",
     description: "The supreme fluid intelligence.",
     learnset: [...BASIC_MOVES, { level: 8, moveId: "AQUA_SHOT" }, { level: 36, moveId: "MIND_BLAST" }, { level: 45, moveId: "HYDRO_SURGE" }],
-    pokeApiId: 121 // starmie
+    sprite: "aquari-os" // original local sprite (public/sprites/mochiichao)
   },
   "004": {
     id: "004",
@@ -47,7 +47,7 @@ export const SPECIES_DB: Record<string, SpeciesData> = {
     description: "A small crocodile with metallic scales.",
     learnset: [...BASIC_MOVES, { level: 8, moveId: "METAL_STRIKE" }, { level: 15, moveId: "AQUA_SHOT" }],
     evolution: { targetId: "005", level: 18 },
-    pokeApiId: 158 // totodile
+    sprite: "razorgater" // original local sprite (public/sprites/mochiichao)
   },
   "005": {
     id: "005",
@@ -58,7 +58,7 @@ export const SPECIES_DB: Record<string, SpeciesData> = {
     description: "Its chrome hide reflects all light, helping it hunt in shadows.",
     learnset: [...BASIC_MOVES, { level: 8, moveId: "METAL_STRIKE" }, { level: 20, moveId: "CRUNCH" }],
     evolution: { targetId: "006", level: 30 },
-    pokeApiId: 159 // croconaw
+    sprite: "chromedile" // original local sprite (public/sprites/mochiichao)
   },
   "006": {
     id: "006",
@@ -68,7 +68,7 @@ export const SPECIES_DB: Record<string, SpeciesData> = {
     catchRate: 45, baseExpYield: 239, growthRate: "Medium Slow",
     description: "A walking tank engineered for destruction.",
     learnset: [...BASIC_MOVES, { level: 15, moveId: "FLASH_CANNON_MOVE" }, { level: 30, moveId: "DRAGON_CLAW" }, { level: 45, moveId: "IRON_BARRAGE" }],
-    pokeApiId: 160 // feraligatr
+    sprite: "reaperdile" // original local sprite (public/sprites/mochiichao)
   },
   "007": {
     id: "007",
@@ -79,7 +79,7 @@ export const SPECIES_DB: Record<string, SpeciesData> = {
     description: "A tiny dinosaur made of packed earth.",
     learnset: [...BASIC_MOVES, { level: 9, moveId: "MUD_BLAST" }, { level: 14, moveId: "BULLDOZE" }],
     evolution: { targetId: "008", level: 16 },
-    pokeApiId: 246 // larvitar
+    sprite: "tyrage" // original local sprite (public/sprites/mochiichao)
   },
   "008": {
     id: "008",
@@ -90,7 +90,7 @@ export const SPECIES_DB: Record<string, SpeciesData> = {
     description: "It wears a bone mask and hunts in the desert.",
     learnset: [...BASIC_MOVES, { level: 9, moveId: "MUD_BLAST" }, { level: 20, moveId: "EARTH_POWER" }],
     evolution: { targetId: "009", level: 34 },
-    pokeApiId: 247 // pupitar
+    sprite: "duneclaw" // original local sprite (public/sprites/mochiichao)
   },
   "009": {
     id: "009",
@@ -100,7 +100,7 @@ export const SPECIES_DB: Record<string, SpeciesData> = {
     catchRate: 45, baseExpYield: 240, growthRate: "Medium Slow",
     description: "The apex predator fossilized into code.",
     learnset: [...BASIC_MOVES, { level: 34, moveId: "SHADOW_PULSE" }, { level: 42, moveId: "EARTH_TREMOR" }],
-    pokeApiId: 248 // tyranitar
+    sprite: "oblivirex" // original local sprite (public/sprites/mochiichao)
   },
   "010": {
     id: "010",
@@ -110,7 +110,7 @@ export const SPECIES_DB: Record<string, SpeciesData> = {
     catchRate: 200, baseExpYield: 52, growthRate: "Fast",
     description: "A fiery little feline.",
     learnset: [...BASIC_MOVES, { level: 6, moveId: "EMBER_TOSS" }, { level: 14, moveId: "FIRE_STREAM" }],
-    pokeApiId: 725 // litten
+    sprite: "kittember" // original local sprite (public/sprites/mochiichao)
   },
   "038": {
     id: "038",
@@ -121,7 +121,7 @@ export const SPECIES_DB: Record<string, SpeciesData> = {
     description: "A little plant turtle.",
     learnset: [...BASIC_MOVES, { level: 6, moveId: "VINE_LASH" }, { level: 14, moveId: "RAZOR_LEAF" }],
     evolution: { targetId: "039", level: 18 },
-    pokeApiId: 387 // turtwig
+    sprite: "sproutle" // original local sprite (public/sprites/mochiichao)
   },
   "039": {
     id: "039",
@@ -131,6 +131,6 @@ export const SPECIES_DB: Record<string, SpeciesData> = {
     catchRate: 45, baseExpYield: 180, growthRate: "Medium Fast",
     description: "A fortress with a steel shell covered in moss.",
     learnset: [...BASIC_MOVES, { level: 18, moveId: "METAL_STRIKE" }, { level: 32, moveId: "SOLAR_BLAST" }],
-    pokeApiId: 389 // torterra
+    sprite: "dreadtoise" // original local sprite (public/sprites/mochiichao)
   }
 };

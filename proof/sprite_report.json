@@ -1,0 +1,380 @@
+[
+ {
+  "id": "001",
+  "name": "Mochii",
+  "slug": "mochii",
+  "front_colors": 7,
+  "back_colors": 5
+ },
+ {
+  "id": "002",
+  "name": "Tiidebiite",
+  "slug": "tiidebiite",
+  "front_colors": 15,
+  "back_colors": 15
+ },
+ {
+  "id": "003",
+  "name": "Aquari-OS",
+  "slug": "aquari-os",
+  "front_colors": 15,
+  "back_colors": 15
+ },
+ {
+  "id": "004",
+  "name": "Razorgater",
+  "slug": "razorgater",
+  "front_colors": 11,
+  "back_colors": 8
+ },
+ {
+  "id": "005",
+  "name": "Chromedile",
+  "slug": "chromedile",
+  "front_colors": 13,
+  "back_colors": 12
+ },
+ {
+  "id": "006",
+  "name": "Reaperdile",
+  "slug": "reaperdile",
+  "front_colors": 15,
+  "back_colors": 14
+ },
+ {
+  "id": "007",
+  "name": "Tyrage",
+  "slug": "tyrage",
+  "front_colors": 13,
+  "back_colors": 11
+ },
+ {
+  "id": "008",
+  "name": "Duneclaw",
+  "slug": "duneclaw",
+  "front_colors": 12,
+  "back_colors": 9
+ },
+ {
+  "id": "009",
+  "name": "Oblivirex",
+  "slug": "oblivirex",
+  "front_colors": 10,
+  "back_colors": 8
+ },
+ {
+  "id": "010",
+  "name": "Kittember",
+  "slug": "kittember",
+  "front_colors": 10,
+  "back_colors": 8
+ },
+ {
+  "id": "011",
+  "name": "Pyropaw",
+  "slug": "pyropaw",
+  "front_colors": 11,
+  "back_colors": 9
+ },
+ {
+  "id": "012",
+  "name": "Manticlaw",
+  "slug": "manticlaw",
+  "front_colors": 15,
+  "back_colors": 16
+ },
+ {
+  "id": "013",
+  "name": "Pupbble",
+  "slug": "pupbble",
+  "front_colors": 13,
+  "back_colors": 11
+ },
+ {
+  "id": "014",
+  "name": "Terradog",
+  "slug": "terradog",
+  "front_colors": 11,
+  "back_colors": 9
+ },
+ {
+  "id": "015",
+  "name": "Quakehound",
+  "slug": "quakehound",
+  "front_colors": 12,
+  "back_colors": 8
+ },
+ {
+  "id": "016",
+  "name": "Squirmite",
+  "slug": "squirmite",
+  "front_colors": 9,
+  "back_colors": 8
+ },
+ {
+  "id": "017",
+  "name": "Cocoonode",
+  "slug": "cocoonode",
+  "front_colors": 11,
+  "back_colors": 8
+ },
+ {
+  "id": "018",
+  "name": "Mothrix",
+  "slug": "mothrix",
+  "front_colors": 11,
+  "back_colors": 11
+ },
+ {
+  "id": "019",
+  "name": "Zephling",
+  "slug": "zephling",
+  "front_colors": 14,
+  "back_colors": 11
+ },
+ {
+  "id": "020",
+  "name": "Aerobeak",
+  "slug": "aerobeak",
+  "front_colors": 15,
+  "back_colors": 11
+ },
+ {
+  "id": "021",
+  "name": "Stormtalon",
+  "slug": "stormtalon",
+  "front_colors": 10,
+  "back_colors": 9
+ },
+ {
+  "id": "022",
+  "name": "Finblade",
+  "slug": "finblade",
+  "front_colors": 13,
+  "back_colors": 11
+ },
+ {
+  "id": "023",
+  "name": "Megalochrome",
+  "slug": "megalochrome",
+  "front_colors": 11,
+  "back_colors": 5
+ },
+ {
+  "id": "024",
+  "name": "Floatcalf",
+  "slug": "floatcalf",
+  "front_colors": 11,
+  "back_colors": 10
+ },
+ {
+  "id": "025",
+  "name": "Astroleviathan",
+  "slug": "astroleviathan",
+  "front_colors": 11,
+  "back_colors": 11
+ },
+ {
+  "id": "026",
+  "name": "Inklet",
+  "slug": "inklet",
+  "front_colors": 6,
+  "back_colors": 4
+ },
+ {
+  "id": "027",
+  "name": "Toxitacle",
+  "slug": "toxitacle",
+  "front_colors": 9,
+  "back_colors": 5
+ },
+ {
+  "id": "028",
+  "name": "Krakenox",
+  "slug": "krakenox",
+  "front_colors": 9,
+  "back_colors": 5
+ },
+ {
+  "id": "029",
+  "name": "Punchkid",
+  "slug": "punchkid",
+  "front_colors": 15,
+  "back_colors": 12
+ },
+ {
+  "id": "030",
+  "name": "Strikechamp",
+  "slug": "strikechamp",
+  "front_colors": 15,
+  "back_colors": 16
+ },
+ {
+  "id": "031",
+  "name": "Kickmaster",
+  "slug": "kickmaster",
+  "front_colors": 15,
+  "back_colors": 12
+ },
+ {
+  "id": "032",
+  "name": "Gearkid",
+  "slug": "gearkid",
+  "front_colors": 11,
+  "back_colors": 10
+ },
+ {
+  "id": "033",
+  "name": "Mechapion",
+  "slug": "mechapion",
+  "front_colors": 14,
+  "back_colors": 15
+ },
+ {
+  "id": "034",
+  "name": "Gorokappa",
+  "slug": "gorokappa",
+  "front_colors": 13,
+  "back_colors": 13
+ },
+ {
+  "id": "035",
+  "name": "Pebblefist",
+  "slug": "pebblefist",
+  "front_colors": 12,
+  "back_colors": 8
+ },
+ {
+  "id": "036",
+  "name": "Cragarm",
+  "slug": "cragarm",
+  "front_colors": 14,
+  "back_colors": 13
+ },
+ {
+  "id": "037",
+  "name": "Terrapod",
+  "slug": "terrapod",
+  "front_colors": 15,
+  "back_colors": 13
+ },
+ {
+  "id": "038",
+  "name": "Sproutle",
+  "slug": "sproutle",
+  "front_colors": 16,
+  "back_colors": 15
+ },
+ {
+  "id": "039",
+  "name": "Shellguard",
+  "slug": "shellguard",
+  "front_colors": 15,
+  "back_colors": 15
+ },
+ {
+  "id": "040",
+  "name": "Dreadtoise",
+  "slug": "dreadtoise",
+  "front_colors": 15,
+  "back_colors": 15
+ },
+ {
+  "id": "041",
+  "name": "Pixilite",
+  "slug": "pixilite",
+  "front_colors": 16,
+  "back_colors": 15
+ },
+ {
+  "id": "042",
+  "name": "Wispkin",
+  "slug": "wispkin",
+  "front_colors": 8,
+  "back_colors": 4
+ },
+ {
+  "id": "043",
+  "name": "Duskfiend",
+  "slug": "duskfiend",
+  "front_colors": 9,
+  "back_colors": 8
+ },
+ {
+  "id": "044",
+  "name": "Ashemit",
+  "slug": "ashemit",
+  "front_colors": 13,
+  "back_colors": 8
+ },
+ {
+  "id": "045",
+  "name": "Pyromonk",
+  "slug": "pyromonk",
+  "front_colors": 15,
+  "back_colors": 16
+ },
+ {
+  "id": "046",
+  "name": "Yogiferno",
+  "slug": "yogiferno",
+  "front_colors": 16,
+  "back_colors": 11
+ },
+ {
+  "id": "331",
+  "name": "Mythar",
+  "slug": "mythar",
+  "front_colors": 12,
+  "back_colors": 12
+ },
+ {
+  "id": "BS-02",
+  "name": "Emburrn",
+  "slug": "emburrn",
+  "front_colors": 16,
+  "back_colors": 16
+ },
+ {
+  "id": "BS-03",
+  "name": "Aquabble",
+  "slug": "aquabble",
+  "front_colors": 10,
+  "back_colors": 9
+ },
+ {
+  "id": "DIW-01",
+  "name": "Mochling",
+  "slug": "mochling",
+  "front_colors": 16,
+  "back_colors": 10
+ },
+ {
+  "id": "DIW-02",
+  "name": "Glitch-Mochi",
+  "slug": "glitch-mochi",
+  "front_colors": 11,
+  "back_colors": 11
+ },
+ {
+  "id": "DIW-03",
+  "name": "Neon Stalker",
+  "slug": "neon-stalker",
+  "front_colors": 8,
+  "back_colors": 8
+ },
+ {
+  "id": "DIW-04",
+  "name": "Ragdoll Brute",
+  "slug": "ragdoll-brute",
+  "front_colors": 10,
+  "back_colors": 9
+ },
+ {
+  "id": "DIW-05",
+  "name": "Dream Cruncher",
+  "slug": "dream-cruncher",
+  "front_colors": 15,
+  "back_colors": 14
+ }
+]
