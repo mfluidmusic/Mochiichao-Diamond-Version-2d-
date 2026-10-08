@@ -1,6 +1,7 @@
 import React from 'react';
 import { useGameStore } from '../../store/gameStore';
 import { SPECIES_DB } from '../../lib/species';
+import MochiiSprite from '../MochiiSprite';
 import SpriteGenerator from '../SpriteGenerator';
 
 export default function RosterView({ onBack }: { onBack: () => void }) {
@@ -29,16 +30,14 @@ export default function RosterView({ onBack }: { onBack: () => void }) {
               <div className="flex justify-between items-start mb-4">
                 <div className="flex min-w-0">
                   <div className="w-16 h-16 mr-3 bg-slate-950 rounded border border-slate-800 flex items-center justify-center shrink-0">
-                    {species.pokeApiId ? (
-                      <img 
-                        src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${species.pokeApiId}.png`}
-                        alt={mochii.nickname}
-                        className="max-w-full max-h-full pixelated rendering-pixelated"
-                        style={{ imageRendering: 'pixelated' }}
-                      />
-                    ) : (
-                      <span className="text-2xl">{species.types[0] === 'WATER' ? '💧' : species.types[0] === 'FIRE' ? '🔥' : '🌱'}</span>
-                    )}
+                    <MochiiSprite
+                      id={mochii.speciesId}
+                      name={species.name}
+                      slug={species.sprite}
+                      view="front"
+                      alt={mochii.nickname}
+                      fallback={<span className="text-2xl">{species.types[0] === 'WATER' ? '💧' : species.types[0] === 'FIRE' ? '🔥' : '🌱'}</span>}
+                    />
                   </div>
                   <div className="min-w-0">
                     <div className="font-bold text-lg text-slate-100 flex items-center gap-2 truncate">

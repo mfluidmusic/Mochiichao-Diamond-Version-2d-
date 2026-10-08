@@ -32,7 +32,7 @@ export interface SpeciesData {
   learnset: { level: number; moveId: string }[];
   evolution?: { targetId: string; level: number };
   description: string;
-  pokeApiId?: number; // Fetches sprite + enhanced dex description from PokeAPI
+  sprite?: string; // slug of the original local sprite: public/sprites/mochiichao/{front,back}/<sprite>.png
   apiSearchTags?: string[];
 }
 

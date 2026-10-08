@@ -7,6 +7,7 @@ import { getDayPhase, DAY_TINT, DAY_AMBIENT, WEATHER_CONFIG } from "./WorldConst
 import SaveMenu from "../components/SaveMenu";
 import { saveGame, getSaves } from "../lib/saveSystem";
 import { SPECIES_DB } from '../lib/species';
+import MochiiSprite from '../components/MochiiSprite';
 
 const TILE_SIZE = 40; // match PDF size because it renders better in viewports
 
@@ -890,11 +891,13 @@ export default function WorldEngine({ setView, setBattleEnemy }: { setView?: any
                   animation: battleAnim === "enemy" ? "attack_enemy 0.4s ease-out" : "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite" 
                 }}
               >
-                {SPECIES_DB[enemy.speciesId || enemy.id]?.pokeApiId ? (
-                  <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${SPECIES_DB[enemy.speciesId || enemy.id].pokeApiId}.gif`}
-                       onError={e => e.currentTarget.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${SPECIES_DB[enemy.speciesId || enemy.id].pokeApiId}.png`}
-                       className="pixelated max-w-full max-h-full object-contain" />
-                ) : (enemy.sprite || '👾')}
+                <MochiiSprite
+                  id={enemy.speciesId || enemy.id}
+                  name={enemy.name || SPECIES_DB[enemy.speciesId || enemy.id]?.name}
+                  view="front"
+                  className="pixelated max-w-full max-h-full object-contain"
+                  fallback={enemy.sprite || '👾'}
+                />
               </div>
            </div>
 
@@ -919,11 +922,13 @@ export default function WorldEngine({ setView, setBattleEnemy }: { setView?: any
                   animation: battleAnim === "player" ? "attack_player 0.4s ease-out" : "none" 
                 }}
               >
-                {SPECIES_DB[player.speciesId || player.id]?.pokeApiId ? (
-                  <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/${SPECIES_DB[player.speciesId || player.id].pokeApiId}.gif`}
-                       onError={e => e.currentTarget.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${SPECIES_DB[player.speciesId || player.id].pokeApiId}.png`}
-                       className="pixelated max-w-full max-h-full object-contain" />
-                ) : (player.sprite || '👾')}
+                <MochiiSprite
+                  id={player.speciesId || player.id}
+                  name={player.name || SPECIES_DB[player.speciesId || player.id]?.name}
+                  view="back"
+                  className="pixelated max-w-full max-h-full object-contain"
+                  fallback={player.sprite || '👾'}
+                />
               </div>
            </div>
         </div>
